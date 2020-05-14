@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/7b4d01730d.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Bootstrap CDN -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="stylesheet" href="./styles/style.css" />
+
+		<title>Sumunara | ログイン</title>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="signup.html">
+					<img
+						src="images/logo_transparent2.png"
+						alt="sumunara logo"
+					/>
+					Sumunara
+				</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav">
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="index.html">ホーム</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="login.html"
+								>ログイン
+								<span class="sr-only">(current)</span></a
+							>
+						</li> -->
+
+						<li class="nav-item">
+							<a class="nav-link" href="signup.html"
+								>サインアップ</a
+							>
+						</li>
+
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="#">ログアウト</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar -->
+
+		<!-- Log in -->
+		<div id="login-container" class="container">
+			<h3 class="text-center mb-4">Sumunaraにログインする</h3>
+
+			<div id="flex-container">
+				<!-- Social -->
+				<!-- Uncomment when inplementing social accounts -->
+				<!-- <div class="col">
+					<p class="text-center">
+						Log in with your social media account
+					</p>
+
+					<div id="social-icons">
+						<button id="google" class="btn">
+							<div class="col-2">
+								<i class="fab fa-google"></i>
+							</div>
+
+							<div class="col-10 col-sm-8 col-md-10 mx-auto">
+								Log in with Google
+							</div>
+						</button>
+
+						<button id="facebook" class="btn">
+							<div class="col-2">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+
+							<div class="col-10 col-sm-8 col-md-10 mx-auto">
+								Log in with Facebook
+							</div>
+						</button>
+
+						<button id="twitter" class="btn">
+							<div class="col-2">
+								<i class="fab fa-twitter"></i>
+							</div>
+
+							<div class="col-10 col-sm-8 col-md-10 mx-auto">
+								Log in with Twitter
+							</div>
+						</button>
+
+						<button id="instagram" class="btn">
+							<div class="col-2">
+								<i class="fab fa-instagram"></i>
+							</div>
+
+							<div class="col-10 col-sm-8 col-md-10 mx-auto">
+								Log in with Instagram
+							</div>
+						</button>
+
+						<button id="github" class="btn">
+							<div class="col-2">
+								<i class="fab fa-github"></i>
+							</div>
+
+							<div class="col-10 col-sm-8 col-md-10 mx-auto">
+								Log in with GitHub
+							</div>
+						</button>
+					</div>
+				</div> -->
+				<!-- Social -->
+
+				<!-- <div id="divider-wrapper">
+					<p id="or" class="text-center"><span>or</span></p>
+				</div> -->
+
+				<!-- Email form -->
+				<form id="login-form" class="col">
+					<div class="form-group">
+						<label for="inputUserName"
+							><i class="fas fa-user mr-2"></i>ユーザー名 もしくは
+							メールアドレス</label
+						>
+
+						<input
+							type="text"
+							class="form-control"
+							id="inputUserName"
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="inputPassword"
+							><i class="fas fa-lock mr-2"></i>パスワード</label
+						>
+
+						<input
+							type="password"
+							id="inputPassword"
+							class="form-control"
+							aria-describedby="passwordHelpBlock"
+						/>
+					</div>
+
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" />
+						<label class="form-check-label"
+							>ログインしたままにする</label
+						>
+					</div>
+
+					<button type="submit" id="loginBtn" class="btn btn-warning">
+						ログイン
+					</button>
+
+					<p>または<a href="#">パスワードを忘れた場合</a></p>
+
+					<p>
+						初めてのご利用ですか？
+						<a href="signup.html">アカウント作成</a>
+					</p>
+				</form>
+				<!-- Email form -->
+			</div>
+		</div>
+		<!-- Log in -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row mx-auto justify-content-center py-5">
+					<div class="col-lg-2 mb-3">
+						<h5 class="col-12 px-0">住みたい</h5>
+
+						<ul class="list-unstyled col-12 px-0">
+							<li>
+								<a href="#">北九州</a>
+							</li>
+
+							<li>
+								<a href="#">福岡</a>
+							</li>
+
+							<li>
+								<a href="#">筑豊</a>
+							</li>
+
+							<li>
+								<a href="#">筑後</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 mb-3">
+						<h5 class="col-12 px-0">知りたい</h5>
+
+						<ul class="list-unstyled col-12 px-0">
+							<li>
+								<a href="#">飲食店</a>
+							</li>
+
+							<li>
+								<a href="#">イベント</a>
+							</li>
+
+							<li>
+								<a href="#">環境</a>
+							</li>
+
+							<li>
+								<a href="#">治安・安全</a>
+							</li>
+
+							<li>
+								<a href="#">入園・入学</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 mb-3">
+						<h5 class="col-12 px-0">コラム</h5>
+
+						<ul class="list-unstyled col-12 px-0">
+							<li>
+								<a href="#">お問い合わせ</a>
+							</li>
+
+							<li>
+								<a href="#">お知らせ</a>
+							</li>
+
+							<li>
+								<a href="#">ヘルプ</a>
+							</li>
+
+							<li>
+								<a href="#">サイトマップ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="copyright" class="text-center row align-items-center">
+					<p>
+						<a href="signup.html">
+							<img
+								src="images/logo_transparent2.png"
+								alt="sumunara logo"
+							/><span id="year"></span> MAD Works, LLC
+						</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- <script type="module" src="main.js"></script> -->
+		<!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.243.1.min.js"></script> -->
+        <!-- <script src="login.js"></script> -->
+        <script src="main.bundle.js"></script>
+	</body>
+</html>
